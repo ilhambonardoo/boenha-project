@@ -1,24 +1,30 @@
 import { Route, Routes } from "react-router-dom";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
+import StickyWhatsAppButton from "./components/StickyWhatsAppButton";
 import HomePage from "./pages/Home/HomePage";
-import About from "./pages/About/About";
-import Product from "./pages/Product/Product";
-import Gallery from "./pages/Gallery/Gallery";
-import Bisnis from "./pages/LiniBisnis/Bisnis";
+import AboutPage from "./pages/About/AboutPage";
+import ProductPage from "./pages/Product/ProductPage";
+import GalleryPage from "./pages/Gallery/GalleryPage";
+import LiniBisnisPage from "./pages/LiniBisnis/LiniBisnisPage";
+import ContactPage from "./pages/Contact/ContactPage";
 
 const App = () => {
   return (
     <>
       <Navbar />
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/our-bussiness" element={<Bisnis />} />
-        <Route path="/product" element={<Product />} />
-        <Route path="/gallery" element={<Gallery />} />
-      </Routes>
+      <main className="min-h-screen">
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/tentang-kami" element={<AboutPage />} />
+          <Route path="/lini-bisnis" element={<LiniBisnisPage />} />
+          <Route path="/produk" element={<ProductPage />} />
+          <Route path="/galeri" element={<GalleryPage />} />
+          <Route path="/kontak" element={<ContactPage />} />
+        </Routes>
+      </main>
       <Footer />
+      <StickyWhatsAppButton />
     </>
   );
 };
