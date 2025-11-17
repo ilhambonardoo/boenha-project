@@ -1,0 +1,11 @@
+{
+  "brand": "Boenhaz",
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "lini_bisnis": "Business Lines",
+    "products": "Products",
+    "gallery": "Gallery",
+    "contact": "Contact"
+  }
+}
