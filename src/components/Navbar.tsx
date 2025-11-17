@@ -1,18 +1,22 @@
 import { Link, useLocation } from "react-router-dom";
 import { useState } from "react";
 import { HiMenu, HiX } from "react-icons/hi";
+import { useTranslation } from "react-i18next";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const location = useLocation();
 
+  const { t } = useTranslation();
+
   const navLinks = [
-    { path: "/", label: "Beranda" },
-    { path: "/tentang-kami", label: "Tentang Kami" },
-    { path: "/lini-bisnis", label: "Lini Bisnis" },
-    { path: "/produk", label: "Produk Unggulan" },
-    { path: "/galeri", label: "Galeri" },
-    { path: "/kontak", label: "Hubungi Kami" },
+    { path: "/", key: "nav.home" },
+    { path: "/tentang-kami", key: "nav.about" },
+    { path: "/lini-bisnis", key: "nav.lini_bisnis" },
+    { path: "/produk", key: "nav.products" },
+    { path: "/galeri", key: "nav.gallery" },
+    { path: "/kontak", key: "nav.contact" },
   ];
 
   const isActive = (path: string) => location.pathname === path;
@@ -41,9 +45,10 @@ const Navbar = () => {
                       : "text-white hover:text-amber-200"
                   }`}
                 >
-                  {link.label}
+                  {t(link.key)}
                 </Link>
               ))}
+              <LanguageSwitcher />
             </div>
 
             {/* Mobile Menu Button */}
@@ -72,9 +77,12 @@ const Navbar = () => {
                       : "text-boen-text hover:bg-gray-100"
                   }`}
                 >
-                  {link.label}
+                  {t(link.key)}
                 </Link>
               ))}
+              <div className="px-4 pt-2 pb-4">
+                <LanguageSwitcher />
+              </div>
               <Link
                 to="/kontak"
                 onClick={() => setIsMenuOpen(false)}
