@@ -1,5 +1,9 @@
-import type { BusinessLine, TargetMarket } from "../types";
+import type { BusinessLine } from "../types";
 import type { Slide } from "../types";
+import ayam3 from "../assets/ayam/ayam3.jpg";
+import ayam5 from "../assets/ayam/ayam5.jpeg";
+import ayam6 from "../assets/ayam/ayam6.jpeg";
+import ayam7 from "../assets/ayam/ayam7.jpeg";
 
 export const BUSINESS_LINES: BusinessLine[] = [
   {
@@ -12,44 +16,21 @@ export const BUSINESS_LINES: BusinessLine[] = [
   },
 ] as const;
 
-export const TARGET_MARKETS: TargetMarket[] = [
-  {
-    emoji: "🍽️",
-    title: "Restoran",
-    desc: "Menyediakan ayam kampung segar untuk kebutuhan menu restoran dan rumah makan.",
-  },
-  {
-    emoji: "🍱",
-    title: "Katering",
-    desc: "Suplai terpercaya untuk bisnis katering dan event organizer.",
-  },
-  {
-    emoji: "🏪",
-    title: "Pedagang Pasar",
-    desc: "Partner terpercaya untuk pedagang pasar tradisional dan modern.",
-  },
-  {
-    emoji: "🌍",
-    title: "Ekspor",
-    desc: "Target pasar premium dan health-conscious di tingkat global dengan kualitas super.",
-  },
-] as const;
-
 export const businessLine: Slide[] = [
   {
-    url: "/src/assets/ayam/ayam5.jpeg",
+    url: ayam5,
     alt: "ayam1",
   },
   {
-    url: "/src/assets/ayam/ayam6.jpeg",
-    alt: "ayam1",
+    url: ayam6,
+    alt: "ayam2",
   },
   {
-    url: "/src/assets/ayam/ayam7.jpeg",
-    alt: "ayam1",
+    url: ayam7,
+    alt: "ayam3",
   },
   {
-    url: "/src/assets/ayam/ayam3.jpg",
-    alt: "ayam1",
+    url: ayam3,
+    alt: "ayam4",
   },
 ] as const;

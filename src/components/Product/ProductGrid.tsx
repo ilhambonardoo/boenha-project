@@ -5,7 +5,22 @@ import { useTranslation } from "react-i18next";
 
 const ProductGrid = () => {
   const { t } = useTranslation();
-  const productData = t("products", { returnObjects: true }) as any;
+  const productData = t("products", { returnObjects: true }) as {
+    title: string;
+    productSpecifications: string;
+    chickenLive: {
+      name: string;
+      description: string;
+      specifications: string[];
+      ctaText: string;
+    };
+    chickenCutup: {
+      name: string;
+      description: string;
+      specifications: string[];
+      ctaText: string;
+    };
+  };
   const productList = [
     {
       id: 1,
