@@ -12,7 +12,10 @@ const GalleryGrid = () => {
     string,
     string
   >;
-  const albumsData = t("gallery.albums", { returnObjects: true }) as any;
+  const albumsData = t("gallery.albums", { returnObjects: true }) as Record<
+    string,
+    { title: string; description: string }
+  >;
 
   return (
     <>
@@ -54,10 +57,10 @@ const GalleryGrid = () => {
           className="text-center mb-8"
         >
           <h2 className="text-2xl md:text-3xl font-bold text-boen-text mb-2">
-            {albumsData[activeAlbum]?.title}
+            {albumsData[activeAlbum as string]?.title}
           </h2>
           <p className="text-gray-600">
-            {albumsData[activeAlbum]?.description}
+            {albumsData[activeAlbum as string]?.description}
           </p>
         </motion.div>
       </AnimatePresence>
