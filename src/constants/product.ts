@@ -2,7 +2,7 @@ import type { Product, ProductBenefit } from "../types";
 import ayam1 from "../assets/ayam/ayam1.jpg";
 import ayam2 from "../assets/ayam/ayam2.jpg";
 
-export const WHATSAPP_NUMBER = "082315403127";
+export const WHATSAPP_NUMBER = "+6282315403127";
 export const WHATSAPP_MESSAGE =
   "Halo, saya tertarik dengan produk ayam kampung Anda.";
 export const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(

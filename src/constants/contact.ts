@@ -4,9 +4,9 @@ export const COMPANY_INFO: CompanyInfo = {
   name: "CV. Boenhaz Makmur Utama",
   tagline: "Kualitas dan Kepercayaan di Setiap Lini Usaha",
   address: "Jl. Raya Contoh No. 123",
-  phone: "082315403127",
+  phone: "+6282315403127",
   email: "boenhamakmurutama@gmail.com",
-  whatsapp: "082315403127",
+  whatsapp: "+6282315403127",
 } as const;
 
 export const SOCIAL_LINKS: SocialLinks = {
