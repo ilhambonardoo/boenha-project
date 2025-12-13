@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import SwiperSlider from "../Feature/SwiperSlider";
+import SwiperSlider from "../../utils/Feature/SwiperSlider";
 import { businessLine } from "../../constants";
 import { useTranslation } from "react-i18next";
 

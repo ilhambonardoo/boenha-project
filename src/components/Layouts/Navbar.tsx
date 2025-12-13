@@ -3,7 +3,7 @@ import { useState } from "react";
 import { HiMenu, HiX } from "react-icons/hi";
 import { useTranslation } from "react-i18next";
 import { NAV_LINKS, ROUTES } from "../../constants";
-import LanguageSwitcher from "../Feature/LanguageSwitcher";
+import LanguageSwitcher from "../../utils/Feature/LanguageSwitcher";
 import logo from "../../assets/logo/logo.png";
 
 const Navbar = () => {
@@ -31,7 +31,7 @@ const Navbar = () => {
                   to={link.path}
                   className={`text-sm transition-colors ${
                     isActive(link.path)
-                      ? "text-[#00A99D] font-bold"
+                      ? "text-[#fc812b] font-bold"
                       : "text-black font-medium"
                   }`}
                 >
@@ -61,7 +61,7 @@ const Navbar = () => {
                   onClick={() => setIsMenuOpen(false)}
                   className={`block px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
                     isActive(link.path)
-                      ? " text-[#00A99D] font-bold"
+                      ? " text-[#fc812b] font-bold"
                       : "text-black"
                   }`}
                 >

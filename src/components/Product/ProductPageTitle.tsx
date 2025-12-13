@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 const ProductPageTitle = () => {
+  const { t } = useTranslation();
   return (
     <motion.div
       initial={{ opacity: 0, y: -20 }}
@@ -9,11 +11,9 @@ const ProductPageTitle = () => {
       className="text-center mb-16"
     >
       <h1 className="text-4xl md:text-5xl font-bold text-boen-text mb-4">
-        Produk Unggulan Ayam Kampung
+        {t("products.title")}
       </h1>
-      <p className="text-xl text-gray-600">
-        Kualitas Premium untuk Kebutuhan Bisnis Anda
-      </p>
+      <p className="text-xl text-gray-600">{t("products.subtitle")} </p>
     </motion.div>
   );
 };

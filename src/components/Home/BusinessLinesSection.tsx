@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import { BUSINESS_LINES } from "../../constants";
 import { useTranslation } from "react-i18next";
+import { businessLine } from "../../constants";
 
 const BusinessLinesSection = () => {
   const { t } = useTranslation();
@@ -25,9 +25,10 @@ const BusinessLinesSection = () => {
           <h2 className="text-4xl font-bold text-boen-text mb-4">
             {t("businessLines.title")}
           </h2>
-          <p className="text-xl text-gray-600">{t("features.title")}</p>
+          <p className="text-xl text-gray-600">{t("businessLines.subtitle")}</p>
         </motion.div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mx-auto">
           {businessItems.map((business, index) => (
             <motion.div
               key={index}
@@ -38,7 +39,7 @@ const BusinessLinesSection = () => {
               whileHover={{ scale: 1.05, y: -10 }}
             >
               <Link
-                to={BUSINESS_LINES[index]?.link}
+                to={"/lini-bisnis"}
                 className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all block"
               >
                 <motion.div
@@ -47,7 +48,7 @@ const BusinessLinesSection = () => {
                   className="aspect-video overflow-hidden"
                 >
                   <img
-                    src={BUSINESS_LINES[index]?.image}
+                    src={businessLine[index]?.url}
                     alt={business.title}
                     className="w-full h-full object-cover"
                   />
