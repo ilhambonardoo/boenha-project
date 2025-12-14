@@ -1,9 +1,9 @@
 import type { CompanyInfo, SocialLinks, OperatingHours } from "../types";
 
 export const COMPANY_INFO: CompanyInfo = {
-  name: "CV. Boenhaz Makmur Utama",
-  tagline: "Kualitas dan Kepercayaan di Setiap Lini Usaha",
-  address: "Jl. Raya Contoh No. 123",
+  name: "CV. Boenha Makmur Utama",
+  address:
+    "Jl. Raya Bojong Genteng Kabupaten Sukabumi Nomor 018 Blok Mangrod Rt004/001 Desa Cibodas Kecamatan Bojong Genteng Provinsi Jawa Barat",
   phone: "+6282315403127",
   email: "boenhamakmurutama@gmail.com",
   whatsapp: "+6282315403127",

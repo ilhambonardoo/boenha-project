@@ -1,7 +1,5 @@
 import type { GalleryAlbum, GalleryTab } from "../types";
 
-import ayam1 from "../assets/ayam/ayam1.jpg";
-import ayam2 from "../assets/ayam/ayam2.jpg";
 import ayam3 from "../assets/ayam/ayam3.jpg";
 import ayam4 from "../assets/ayam/ayam4.jpeg";
 import ayam5 from "../assets/ayam/ayam5.jpeg";
@@ -13,8 +11,6 @@ export type AlbumType = "peternakan" | "proses" | "distribusi";
 export const GALLERY_ALBUMS: Record<AlbumType, GalleryAlbum> = {
   peternakan: {
     images: [
-      { url: ayam1, alt: "Kandang Ayam Kampung" },
-      { url: ayam2, alt: "Ayam Kampung Sehat" },
       { url: ayam3, alt: "Peternakan Modern" },
       { url: ayam4, alt: "Ayam Kampung Sehat" },
       { url: ayam5, alt: "Peternakan Modern" },
@@ -24,8 +20,6 @@ export const GALLERY_ALBUMS: Record<AlbumType, GalleryAlbum> = {
   },
   proses: {
     images: [
-      { url: ayam1, alt: "Proses Pemotongan" },
-      { url: ayam2, alt: "Produk Siap Kirim" },
       { url: ayam3, alt: "Packaging Produk" },
       { url: ayam4, alt: "Kontrol Kualitas" },
       { url: ayam5, alt: "Produk Higienis" },
@@ -34,7 +28,6 @@ export const GALLERY_ALBUMS: Record<AlbumType, GalleryAlbum> = {
   },
   distribusi: {
     images: [
-      { url: ayam2, alt: "Pengiriman Produk" },
       { url: ayam3, alt: "Kendaraan Distribusi" },
       { url: ayam4, alt: "Tim Distribusi" },
       { url: ayam5, alt: "Proses Pengiriman" },

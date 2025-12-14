@@ -23,7 +23,7 @@ const Footer = () => {
           <div>
             <h3 className="text-2xl font-bold mb-4">{COMPANY_INFO.name}</h3>
             <p className="text-black text-sm leading-relaxed">
-              {COMPANY_INFO.tagline}
+              {t("footer.subtitle")}
             </p>
           </div>
 
@@ -70,8 +70,6 @@ const Footer = () => {
                 <FaMapMarkerAlt className="mt-1 shrink-0" />
                 <span className="text-black text-sm">
                   {COMPANY_INFO.address}
-                  <br />
-                  Kota, Provinsi 12345
                 </span>
               </li>
               <li className="flex items-center gap-3">
@@ -94,7 +92,7 @@ const Footer = () => {
                   className="inline-flex items-center gap-2 bg-[#f97316] hover:bg-[#ea580c] text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors"
                 >
                   <FaWhatsapp size={18} />
-                  WhatsApp Kami
+                  WhatsApp
                 </a>
               </li>
             </ul>

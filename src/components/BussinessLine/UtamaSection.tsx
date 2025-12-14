@@ -8,7 +8,7 @@ const UtamaSection = () => {
 
   const chickenNutrition = t("chicken_benefits.items", {
     returnObjects: true,
-  }) as Array<{ title: string; description: string }>;
+  }) as Array<{ emoji: string; title: string; description: string }>;
 
   const farmingPractices = t("farming_practices", {
     returnObjects: true,
@@ -129,8 +129,9 @@ const UtamaSection = () => {
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.4, delay: 0.9 + index * 0.1 }}
                 whileHover={{ scale: 1.05, y: -5 }}
-                className="bg-white rounded-lg p-6 shadow-md border border-gray-100 hover:border-boen-primary transition-colors"
+                className="bg-white rounded-lg text-center p-6 shadow-md border border-gray-100 hover:border-boen-primary transition-colors"
               >
+                <div className="text-3xl mb-2">{benefit.emoji}</div>
                 <h4 className="text-lg font-semibold text-boen-text mb-2">
                   {benefit.title}
                 </h4>

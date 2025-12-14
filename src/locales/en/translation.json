@@ -9,7 +9,7 @@
   "hero": {
     "title": "Provider of Basic Needs Solutions & Local Economic Development",
     "intro": "Premium Agribusiness, Trading of Consumption Needs, and Community Empowerment Partnerships",
-    "about": "CV. Boenhaz Makmur Utama is a specialist in the cultivation and supply of high-quality free-range chicken. We have modern farming systems with strict hygiene standards to ensure the best product quality.",
+    "about": "CV. Boenha Makmur Utama is a specialist in the cultivation and supply of high-quality free-range chicken. We have modern farming systems with strict hygiene standards to ensure the best product quality.",
     "btnProducts": "View Our Products",
     "btnContact": "Contact Us",
     "pillarTitle": "Our Three Business Pillars",
@@ -35,26 +35,32 @@
     "subtitle": "Better Nutritional Composition",
     "items": [
       {
+        "emoji": "💪",
         "title": "High Protein",
         "description": "Rich in animal protein for muscle growth and recovery"
       },
       {
+        "emoji": "⚖️",
         "title": "Lower Fat",
         "description": "Lower total fat content compared to conventional chicken"
       },
       {
+        "emoji": "❤️",
         "title": "Lower Cholesterol",
         "description": "Lower cholesterol content for heart health"
       },
       {
+        "emoji": "🩸",
         "title": "Rich in Iron",
         "description": "Important for red blood cell formation and energy"
       },
       {
+        "emoji": "🧠",
         "title": "B Complex Vitamins",
         "description": "Good source of Vitamins B6 and B12 for optimal nerve function"
       },
       {
+        "emoji": "💎",
         "title": "Essential Minerals",
         "description": "Contains phosphorus and selenium for bone health and immunity"
       }
@@ -233,11 +239,12 @@
     "required": "*"
   },
   "footer": {
-    "company_name": "CV. Boenhaz Makmur Utama",
+    "company_name": "CV. Boenha Makmur Utama",
+    "subtitle": "Quality and Trust in Every Line of Business",
     "quickLinks": "Quick Links",
     "businessLines": "Business Lines",
     "contactInfo": "Contact Us",
-    "copyright": "© 2024 CV. Boenhaz Makmur Utama. All Rights Reserved."
+    "copyright": "© 2024 CV. Boenha Makmur Utama. All Rights Reserved."
   },
   "testimonials": {
     "title": "Customer Testimonials",
@@ -246,13 +253,13 @@
       {
         "name": "Budi Santoso",
         "business": "Restaurant Owner",
-        "message": "The free-range chicken from CV. Boenhaz is of excellent quality. Our customers are very satisfied with the taste and freshness of the product. The delivery service is also very responsive.",
+        "message": "The free-range chicken from CV. Boenha is of excellent quality. Our customers are very satisfied with the taste and freshness of the product. The delivery service is also very responsive.",
         "rating": 5
       },
       {
         "name": "Siti Nurhaliza",
         "business": "Catering Service",
-        "message": "Competitive prices and guaranteed quality. I have been a loyal customer of CV. Boenhaz for 2 years. Never disappointing.",
+        "message": "Competitive prices and guaranteed quality. I have been a loyal customer of CV. Boenha for 2 years. Never disappointing.",
         "rating": 5
       },
       {
@@ -295,7 +302,7 @@
   },
   "liniBisnis": {
     "title": "Free-Range Chicken Farming & Supply Specialist",
-    "intro": "CV. Boenhaz Makmur Utama is a specialist in the cultivation and supply of high-quality free-range chicken. We have a modern farming system with strict hygiene standards to ensure the best product quality."
+    "intro": "CV. Boenha Makmur Utama is a specialist in the cultivation and supply of high-quality free-range chicken. We have a modern farming system with strict hygiene standards to ensure the best product quality."
   },
   "targetMarkets": {
     "title": "Target Markets",

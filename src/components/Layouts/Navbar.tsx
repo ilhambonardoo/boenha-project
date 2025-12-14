@@ -20,7 +20,7 @@ const Navbar = () => {
           <div className="flex justify-between items-center h-16">
             <Link to={ROUTES.HOME} className="shrink-0">
               <div className="text-2xl font-bold text-boen-secondary">
-                <img src={logo} alt=" logo boenhaz" height={100} width={150} />
+                <img src={logo} alt=" logo boenha" height={100} width={150} />
               </div>
             </Link>
 
