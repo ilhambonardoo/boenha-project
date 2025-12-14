@@ -13,7 +13,7 @@ const BusinessLinesSection = () => {
   }>;
 
   return (
-    <section className="py-20 bg-gray-50">
+    <section className="py-20 bg-gray-50 ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -28,7 +28,7 @@ const BusinessLinesSection = () => {
           <p className="text-xl text-gray-600">{t("businessLines.subtitle")}</p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mx-auto">
+        <div className="grid grid-cols-1 gap-8">
           {businessItems.map((business, index) => (
             <motion.div
               key={index}
@@ -40,7 +40,7 @@ const BusinessLinesSection = () => {
             >
               <Link
                 to={"/lini-bisnis"}
-                className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all block"
+                className="bg-white rounded-xl overflow-hidden shadow-lg lg:w-[370px] lg:h-[390px] mx-auto hover:shadow-xl transition-all block"
               >
                 <motion.div
                   whileHover={{ scale: 1.1 }}

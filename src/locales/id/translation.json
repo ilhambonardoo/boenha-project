@@ -9,7 +9,7 @@
   "hero": {
     "title": "Penyedia Solusi Kebutuhan Dasar & Pembangunan Ekonomi Lokal",
     "intro": "Agribisnis Premium, Perdagangan Kebutuhan Konsumsi, dan Kemitraan Pemberdayaan Masyarakat",
-    "about": "CV. Boenhaz Makmur Utama merupakan spesialis dalam budidaya dan suplai ayam kampung berkualitas tinggi. Kami memiliki sistem peternakan yang modern dengan standar higienis yang ketat untuk memastikan kualitas produk terbaik.",
+    "about": "CV. Boenha Makmur Utama merupakan spesialis dalam budidaya dan suplai ayam kampung berkualitas tinggi. Kami memiliki sistem peternakan yang modern dengan standar higienis yang ketat untuk memastikan kualitas produk terbaik.",
     "btnProducts": "Lihat Produk Kami",
     "btnContact": "Hubungi Kami",
     "pillarTitle": "Tiga Pilar Bisnis Kami",
@@ -35,26 +35,32 @@
     "subtitle": "Komposisi Nutrisi yang Lebih Baik",
     "items": [
       {
+        "emoji": "💪",
         "title": "Protein Tinggi",
         "description": "Kaya akan protein hewani untuk pertumbuhan dan pemulihan otot"
       },
       {
+        "emoji": "⚖️",
         "title": "Lemak Lebih Rendah",
         "description": "Kandungan lemak total lebih rendah dibanding ayam konvensional"
       },
       {
+        "emoji": "❤️",
         "title": "Rendah Kolesterol",
         "description": "Kandungan kolesterol yang lebih rendah untuk kesehatan jantung"
       },
       {
+        "emoji": "🩸",
         "title": "Kaya Zat Besi",
         "description": "Penting untuk pembentukan sel darah merah dan energi"
       },
       {
+        "emoji": "🧠",
         "title": "Vitamin B Kompleks",
         "description": "Sumber Vitamin B6 dan B12 untuk fungsi saraf optimal"
       },
       {
+        "emoji": "💎",
         "title": "Mineral Penting",
         "description": "Mengandung fosfor dan selenium untuk tulang dan imunitas"
       }
@@ -238,11 +244,12 @@
     "required": "*"
   },
   "footer": {
-    "company_name": "CV. Boenhaz Makmur Utama",
+    "company_name": "CV. Boenha Makmur Utama",
+    "subtitle": "Kualitas dan Kepercayaan di Setiap Lini Usaha",
     "quickLinks": "Tautan Cepat",
     "businessLines": "Lini Bisnis",
     "contactInfo": "Kontak Kami",
-    "copyright": "© 2024 CV. Boenhaz Makmur Utama. Semua Hak Dilindungi."
+    "copyright": "© 2024 CV. Boenha Makmur Utama. Semua Hak Dilindungi."
   },
   "testimonials": {
     "title": "Testimoni Pelanggan",
@@ -251,13 +258,13 @@
       {
         "name": "Budi Santoso",
         "business": "Pemilik Restoran",
-        "message": "Ayam kampung dari CV. Boenhaz sangat berkualitas. Pelanggan kami sangat puas dengan rasa dan kesegaran produknya. Layanan pengiriman juga sangat responsif.",
+        "message": "Ayam kampung dari CV. Boenha sangat berkualitas. Pelanggan kami sangat puas dengan rasa dan kesegaran produknya. Layanan pengiriman juga sangat responsif.",
         "rating": 5
       },
       {
         "name": "Siti Nurhaliza",
         "business": "Catering Service",
-        "message": "Harga kompetitif dan kualitas terjamin. Saya sudah menjadi pelanggan setia CV. Boenhaz selama 2 tahun. Tidak pernah mengecewakan.",
+        "message": "Harga kompetitif dan kualitas terjamin. Saya sudah menjadi pelanggan setia CV. Boenha selama 2 tahun. Tidak pernah mengecewakan.",
         "rating": 5
       },
       {
@@ -300,7 +307,7 @@
   },
   "liniBisnis": {
     "title": "Spesialis Budidaya & Suplai Ayam Kampung",
-    "intro": "CV. Boenhaz Makmur Utama merupakan spesialis dalam budidaya dan suplai ayam kampung berkualitas tinggi. Kami memiliki sistem peternakan yang modern dengan standar higienis yang ketat untuk memastikan kualitas produk terbaik."
+    "intro": "CV. Boenha Makmur Utama merupakan spesialis dalam budidaya dan suplai ayam kampung berkualitas tinggi. Kami memiliki sistem peternakan yang modern dengan standar higienis yang ketat untuk memastikan kualitas produk terbaik."
   },
   "targetMarkets": {
     "title": "Target Pasar",

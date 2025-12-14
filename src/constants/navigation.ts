@@ -12,7 +12,6 @@ export const NAV_LINKS: NavLink[] = [
 export const FOOTER_QUICK_LINKS: FooterLink[] = [
   { path: ROUTES.HOME, labelI18n: "HOME" },
   { path: ROUTES.PRODUCTS, labelI18n: "PRODUCTS" },
-  { path: ROUTES.GALLERY, labelI18n: "GALLERY" },
   { path: ROUTES.CONTACT, labelI18n: "CONTACT" },
 ] as const;
 

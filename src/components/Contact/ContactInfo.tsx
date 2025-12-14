@@ -35,7 +35,6 @@ const ContactInfo = () => {
         </p>
       </motion.div>
 
-      {/* Detail Kontak */}
       <div className="space-y-6">
         {[
           {
@@ -125,7 +124,6 @@ const ContactInfo = () => {
         ))}
       </div>
 
-      {/* Social Media Links */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -194,27 +192,12 @@ const ContactInfo = () => {
         </div>
       </motion.div>
 
-      {/* Tombol WhatsApp Besar */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 1.3 }}
         className="pt-6"
-      >
-        <motion.a
-          href={SOCIAL_LINKS.whatsapp}
-          target="_blank"
-          rel="noopener noreferrer"
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.95 }}
-          className="inline-flex items-center gap-3 bg-[#f97316] hover:bg-[#ea580c] text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors shadow-lg hover:shadow-xl w-full justify-center"
-        >
-          <FaWhatsapp size={24} />
-          {t("contact.whatsappCTA")}
-        </motion.a>
-      </motion.div>
-
-      {/* Google Maps Embed (Placeholder) */}
+      ></motion.div>
     </motion.div>
   );
 };
