@@ -9,7 +9,7 @@ import {
   FaTiktok,
 } from "react-icons/fa";
 import { SiShopee } from "react-icons/si";
-import { SOCIAL_LINKS } from "../../constants";
+import { COMPANY_INFO, SOCIAL_LINKS } from "../../constants";
 import { useTranslation } from "react-i18next";
 
 const ContactInfo = () => {
@@ -42,15 +42,7 @@ const ContactInfo = () => {
             bgClass: "bg-boen-primary/10",
             textClass: "text-boen-primary",
             title: t("contact.address"),
-            content: (
-              <>
-                Jl. Raya Contoh No. 123
-                <br />
-                Kec. Contoh, Kota Contoh
-                <br />
-                Provinsi 12345
-              </>
-            ),
+            content: <>{COMPANY_INFO.address}</>,
           },
           {
             icon: FaEnvelope,
