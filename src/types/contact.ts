@@ -16,6 +16,14 @@ export interface SocialLinks {
   shopee?: string;
 }
 
+export interface SocialMediaLink {
+  icon: React.ComponentType<{ size?: number }>;
+  url: string;
+  label: string;
+  color: string;
+  bgColor: string;
+}
+
 export interface OperatingHours {
   day: string;
   time: string;

@@ -10,6 +10,7 @@ export type {
 export type {
   CompanyInfo,
   SocialLinks,
+  SocialMediaLink,
   OperatingHours,
   NavLink,
   FooterLink,

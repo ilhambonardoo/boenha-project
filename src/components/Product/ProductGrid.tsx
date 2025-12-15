@@ -47,7 +47,6 @@ const ProductGrid = () => {
           whileHover={{ scale: 1.02, y: -5 }}
           className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100 hover:shadow-xl transition-shadow"
         >
-          {/* Foto Produk */}
           <motion.div
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.3 }}
@@ -60,7 +59,6 @@ const ProductGrid = () => {
             />
           </motion.div>
 
-          {/* Konten Produk */}
           <div className="p-8">
             <motion.h2
               initial={{ opacity: 0, x: -20 }}
@@ -79,7 +77,6 @@ const ProductGrid = () => {
               {product.description}
             </motion.p>
 
-            {/* Spesifikasi */}
             <div className="mb-6">
               <h3 className="text-lg font-semibold text-boen-text mb-3">
                 {productData.productSpecifications}:
@@ -105,7 +102,6 @@ const ProductGrid = () => {
               </ul>
             </div>
 
-            {/* CTA Button */}
             <motion.a
               href={product.ctaLink}
               target="_blank"

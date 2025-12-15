@@ -1,6 +1,7 @@
 import ProductPageTitle from "../components/Product/ProductPageTitle";
 import ProductGrid from "../components/Product/ProductGrid";
 import ProductBenefits from "../components/Product/ProductBenefits";
+import ProductCTA from "../components/Product/ProductCTA";
 
 const ProductPage = () => {
   return (
@@ -8,6 +9,7 @@ const ProductPage = () => {
       <ProductPageTitle />
       <ProductGrid />
       <ProductBenefits />
+      <ProductCTA />
     </div>
   );
 };
