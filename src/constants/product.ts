@@ -1,6 +1,6 @@
 import type { Product, ProductBenefit } from "../types";
-import ayam1 from "../assets/ayam/ayam1.jpg";
-import ayam2 from "../assets/ayam/ayam2.jpg";
+import ayam5 from "../assets/ayam/ayam5.jpeg";
+import ayam6 from "../assets/ayam/ayam6.jpeg";
 
 export const WHATSAPP_NUMBER = "+6282315403127";
 export const WHATSAPP_MESSAGE =
@@ -12,12 +12,12 @@ export const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURICo
 export const PRODUCTS: Product[] = [
   {
     id: 1,
-    image: ayam1,
+    image: ayam5,
     ctaLink: WHATSAPP_URL,
   },
   {
     id: 2,
-    image: ayam2,
+    image: ayam6,
     ctaLink: WHATSAPP_URL,
   },
 ] as const;

@@ -62,7 +62,6 @@ const UtamaSection = () => {
                 {t("liniBisnis.intro")}
               </motion.p>
 
-              {/* Farming Practices */}
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -108,7 +107,6 @@ const UtamaSection = () => {
           </motion.div>
         </div>
 
-        {/* Chicken Nutrition Benefits */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
@@ -141,7 +139,6 @@ const UtamaSection = () => {
           </div>
         </motion.div>
 
-        {/* Target Pasar */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
@@ -169,7 +166,6 @@ const UtamaSection = () => {
             ))}
           </div>
 
-          {/* Export Section */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
